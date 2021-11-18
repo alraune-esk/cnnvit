@@ -100,7 +100,7 @@ default_cfgs = {
         url='',  # FIXME I have weights for this but > 2GB limit for github release binaries
         num_classes=21843, mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5)),
 
-    # hybrid models (weights ported from official Google JAX impl)
+    
     'vit_base_resnet50_224_in21k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_resnet50_224_in21k-6f7c7740.pth',
         num_classes=21843, mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5), crop_pct=0.9, first_conv='patch_embed.backbone.stem.conv'),
@@ -108,7 +108,7 @@ default_cfgs = {
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_resnet50_384-9fd3c705.pth',
         input_size=(3, 384, 384), mean=(0.5, 0.5, 0.5), std=(0.5, 0.5, 0.5), crop_pct=1.0, first_conv='patch_embed.backbone.stem.conv'),
 
-    # hybrid models (my experiments)
+    # cnn vit models used in thesis
     'vit_small_resnet26d_224': _cfg(),
     'vit_small_resnet50d_s3_224': _cfg(),
     'vit_base_resnet26d_224': _cfg(),
