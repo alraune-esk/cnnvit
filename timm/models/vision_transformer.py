@@ -15,7 +15,7 @@ for some einops/einsum fun
 DeiT model defs and weights from https://github.com/facebookresearch/deit,
 paper `DeiT: Data-efficient Image Transformers` - https://arxiv.org/abs/2012.12877
 
-Hacked together by / Copyright 2020 Ross Wightman
+Hacked together by / Copyright 2020 Ross Wightman  / Modified further by John Yoo 2021
 """
 import math
 import logging
